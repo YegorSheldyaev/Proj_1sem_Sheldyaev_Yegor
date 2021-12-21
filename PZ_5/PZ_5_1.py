@@ -1,7 +1,8 @@
 #Составьте функцию, которая выполнит суммирования числового ряда.
-def S():
-    a = (int(input("Введите окончательное число последовательности")))
-    list1 = range(a + 1)
-    print(sum(list1))
+import random
+def Sum():
+    a = [random.randint(0, 20) for i in range(10)]
+    b = sum(a)
+    print(b)
 
-S()
+Sum()
