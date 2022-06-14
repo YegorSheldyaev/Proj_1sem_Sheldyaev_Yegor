@@ -5,6 +5,7 @@ rows = int(input('Введите количество строк: '))
 cols = int(input('Введите количество столбцов: '))
 
 matrix = [[randint(0, 20) for j in range(cols)] for i in range(rows)]
+print(matrix)
 
 for i in range(len(matrix)):
     for j in range(len(matrix[i])):
